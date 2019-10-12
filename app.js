@@ -22,17 +22,17 @@ const itemsSchema = {
 const Item = mongoose.model("Item", itemsSchema);
 
 const item1 = new Item({
-  name: "Поехать в Новосиб",
+  name: "Go to a store",
 
 });
 
 const item2 = new Item({
-  name: "Найти Лешку-лепешку",
+  name: "Buy apples",
 
 });
 
 const item3 = new Item({
-  name: "Сделать вертолет",
+  name: "Bake a pie",
 
 });
 
